@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet"   text="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header" id="Home">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Aboutme">About me</a></li>
+                        <li><a href="#Skills">skills</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <p>Hello</p>
+                <h1>I'm Niharika Malladi,</h1>
+                <p>Web designer,Student.</p>
+                <a href="https://www.instagram.com/niharika_malladi8053/?hl=en" target="blank">Instagram   |</a>
+                <a href="https://github.com/niharikamalladi" target="blank">Github      |</a>
+                <a href="https://www.linkedin.com/in/malladi-niharika-9b647821b/" target="blank">Linkedin</a>
+            </div>
+
+        </section>
+        <!----About me----->
+        <section class="Aboutme"id="Aboutme">
+           <h1>About Me</h1>
+           <p>Hey,My name is Niharika and I am from Vijayawada. I am currently pursuing my Bachelors degree in Computer Science & Engineering at VIT-AP university. I am currently working for CSI chapter as special Mention and I am also working for ACM as a Project & Research Team member.With little Technical skills,I began my career at this college due these Student chapters I learnt many skills like HTML,CSS,Python,C etc. My hobbies are drawing and listening music. I  bascically have patience and hardworking nature.  </p>
+
+           <div class="row">
+               <div class="course-col">
+                   <h3>Schooling</h3>
+                   <p>I completed my 10th standard at Nirmala High school <br>with 10 cgp</p>
+               </div>
+               <div class="course-col">
+                   <h3>Intermediate</h3>
+                   <p>I completed my intermediate(MPC) at Sri chaitanya junior college<br>with 95.9% aggregate</p>
+               </div>
+           </div>
+        </section>
+
+
+        <!-- ------skill----- -->
+
+
+        <section id="Skills">
+            <div class="skill">
+                <h1>My skills</h1>
+
+                <li><h3>html-70%</h3>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+                <li><h3>CSS-65%</h3>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+                <li><h3>Python-80%</h3>
+                    <span class="bar"><span class="Python"></span></span>
+                </li>
+                <li><h3>C-90%</h3>
+                    <span class="bar"><span class="C"></span></span>
+                </li>
+            </div>
+        </section>
+         <!-------Get in touch--------->
+        <section id="contact">
+          <div class="container">
+              <h1>Get in Touch</h1>
+                <div class="col-md-6 contact-info">
+                    <div class="follow"><b>Address:</b>Gunadala,Vijayawada,Andhra pradesh,India,520004</div>
+                    <div class="follow"><b>Phone no:</b>+91 6305197885</div>
+                    <div class="follow"><b>Email:</b>malladiniharika8053@gmail.com</div>    
+              </div>
+          </div> 
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-250px";
+            }
+        </script>
+    </body>
+</html>
